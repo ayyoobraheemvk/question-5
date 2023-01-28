@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.mainbody{
+    width: 100%;
+    height: 1000px;
+
+}
+
+P{
+    font-size: 28PX;
+    font-weight: 900px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+form{
+    margin-left: 76px;
+}
+
+.formbody{
+    width: 560px;
+    height: 926px;
+    background-color: rgb(97, 180, 19);
+    margin-left: 9%;
+    border-radius: 12px;
+    padding-left: 42px
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 50px;
+  }
+
+.login-label{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: monospace;
+    padding-left: 19px;
+    color: rgb(5, 46, 82) !important;
+}
+
+input{
+    height: 30px;
+    width: 296px;
+    border: solid rgb(133, 4, 10);
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 29px;
+}
+
+.address{
+    height: 100px ;
+    width: 296px;
+    border: solid rgb(133, 4, 10);
+    border-radius: 8px;
+    margin-left: 32px;
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    height: 34px;
+    width: 49px;
+    font-size: smaller;
+    font-style: oblique;
+    font-weight: lighter;
+    border-radius: 10px;
+    border: solid rgb(133, 4, 10);
+}
+
+select {
+    height: 42px;
+    width: 70px;
+    font-size: smaller;
+    border-radius: 10px;
+    border: solid rgb(133, 4, 10);
+}
+
+.submit{
+    width: 117px;
+    height: 44px;
+    margin-left: 136px;
+    font-family: auto;
+    font-weight: 900;
+    font-size: 24px;
+    border-radius: 14px;
+    background-color: rgb(3, 53, 214);
+    cursor: pointer;
+    border: none;
+}
+
+.submit:hover{
+    background-color: rgb(2, 121, 12);
+    color: aliceblue;
+}
+
+.error{
+    padding-left: 20px;
+    color: rgb(253, 7, 7);
+    font-weight: 900;
+    font-size: 23px;
+}
